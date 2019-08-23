@@ -22,4 +22,4 @@ While you should be free to decide how much time you'd like to spend developing 
 
 ## Submission
 
-Please push your changes to a public GitHub repo and let us know when you're done. If you're confident in your solution, you can even submit it as a PR to the EJS :)
+Please push your changes to a public GitHub repo and let us know when you're done. If you're confident in your solution, you can even submit it as a PR to the EJS project :)
