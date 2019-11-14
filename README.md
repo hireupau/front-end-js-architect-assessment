@@ -2,7 +2,7 @@
 
 ## Overview
 
-The [`light-level` CSS `@media` feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/light-level) is a yet to be implemented media query which will allow developers to change their user interface's to the suit the device's ambient light level.
+The [`light-level` CSS `@media` feature](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/light-level) is a yet to be implemented media query which will allow developers to change their user interfaces to the suit the device's ambient light level.
 
 There are currently 2 JavaScript APIs which can query for a device's light level:
 
