@@ -11,7 +11,7 @@ There are currently 2 JavaScript APIs which can query for a device's light level
 
 Between them, they have support for Chrome (behind a `enable-generic-sensor-extra-classes` flag), Edge and Firefox (behind a `device.sensors.ambientLight.enabled` flag).
 
-It is worth reading [Using light sensors](https://developer.mozilla.org/en-US/docs/Web/API/DeviceLightEvent/Using_light_sensors) and the [`Ambient Light Sensor` spec](https://w3c.github.io/ambient-light/) to learn more.
+It is worth reading [Using light sensors](https://developer.mozilla.org/en-US/docs/Web/API/DeviceLightEvent/Using_light_sensors) and the [Ambient Light Sensor spec](https://w3c.github.io/ambient-light/) to learn more.
 
 ## Task
 
@@ -23,7 +23,7 @@ It provides us a chance to see your:
 * Your level of general JavaScript knowledge.
 * Understanding of cross-browser environments.
 
-You will require access to an Android device with both Chrome and Firefox installed. A Windows device with a light sensor would also be useful for testing `devicelight` only. Unfortunately, Macs do not seem to expose their light sensor to web APIs and Safari on macOS and iOS has zero support.
+You will require access to an Android or Windows device with a light sensor with Chrome, Firefox and Edge installed (if applicable). Unfortunately, Macs don't seem to expose its light sensor to web APIs, and Safari on iOS has zero support.
 
 ## Guidance on time spent
 
@@ -31,4 +31,4 @@ While you should be free to decide how much time you'd like to spend developing 
 
 ## Submission
 
-Please push your changes to a public GitHub repo and let us know when you're done. If you're confident in your solution, you can even submit it as a PR to the EJS project :)
+Please push your changes to a public GitHub repo and let us know when you're done via email or by logging an issue on this repo.
