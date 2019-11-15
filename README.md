@@ -27,7 +27,7 @@ You will require access to an Android or Windows device with a light sensor with
 
 ## Simulator
 
-Because the API is not currently well supported, we provide the following simulator, which you can include inline on any example pages but should be separate from your code. It provides a limited slice of the forthcoming API, enough to enable testing a polyfill. The simulator emits approximately 60 events per second to listeners, with illuminance values varying sinusoidally between 25 and 1000 lux on a 10 second cycle time. Feel free to change the `Emulation defaults` values to test different scenarios.
+Because the `AmbientLightSensor` API is not currently well supported, we provide the following simulator, which you can include inline on any example pages but should be separate from your code. It provides a limited slice of the forthcoming API, enough to enable testing a polyfill. The simulator emits approximately 60 events per second to listeners, with illuminance values varying sinusoidally between 25 and 1000 lux on a 10 second cycle time. Feel free to change the `Emulation defaults` values to test different scenarios.
 
 ```js
 window.AmbientLightSensor = window.AmbientLightSensor || function () {
